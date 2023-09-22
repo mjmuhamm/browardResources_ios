@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45428D72ABDB5F300A356BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45428D62ABDB5F300A356BF /* AppDelegate.swift */; };
+		F45428D92ABDB5F300A356BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45428D82ABDB5F300A356BF /* SceneDelegate.swift */; };
+		F45428DB2ABDB5F300A356BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45428DA2ABDB5F300A356BF /* ViewController.swift */; };
+		F45428DE2ABDB5F300A356BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45428DC2ABDB5F300A356BF /* Main.storyboard */; };
+		F45428E02ABDB5F400A356BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45428DF2ABDB5F400A356BF /* Assets.xcassets */; };
+		F45428E32ABDB5F400A356BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45428E12ABDB5F400A356BF /* LaunchScreen.storyboard */; };
+		F45428EE2ABDB5F400A356BF /* Broward_ResourcesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45428ED2ABDB5F400A356BF /* Broward_ResourcesTests.swift */; };
+		F45428F82ABDB5F400A356BF /* Broward_ResourcesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45428F72ABDB5F400A356BF /* Broward_ResourcesUITests.swift */; };
+		F45428FA2ABDB5F400A356BF /* Broward_ResourcesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45428F92ABDB5F400A356BF /* Broward_ResourcesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F45428EA2ABDB5F400A356BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45428CB2ABDB5F300A356BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45428D22ABDB5F300A356BF;
+			remoteInfo = "Broward Resources";
+		};
+		F45428F42ABDB5F400A356BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45428CB2ABDB5F300A356BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45428D22ABDB5F300A356BF;
+			remoteInfo = "Broward Resources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F45428D32ABDB5F300A356BF /* Broward Resources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Broward Resources.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45428D62ABDB5F300A356BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F45428D82ABDB5F300A356BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F45428DA2ABDB5F300A356BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F45428DD2ABDB5F300A356BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45428DF2ABDB5F400A356BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45428E22ABDB5F400A356BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45428E42ABDB5F400A356BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45428E92ABDB5F400A356BF /* Broward ResourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Broward ResourcesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45428ED2ABDB5F400A356BF /* Broward_ResourcesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broward_ResourcesTests.swift; sourceTree = "<group>"; };
+		F45428F32ABDB5F400A356BF /* Broward ResourcesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Broward ResourcesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45428F72ABDB5F400A356BF /* Broward_ResourcesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broward_ResourcesUITests.swift; sourceTree = "<group>"; };
+		F45428F92ABDB5F400A356BF /* Broward_ResourcesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broward_ResourcesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45428D02ABDB5F300A356BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45428E62ABDB5F400A356BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45428F02ABDB5F400A356BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45428CA2ABDB5F300A356BF = {
+			isa = PBXGroup;
+			children = (
+				F45428D52ABDB5F300A356BF /* Broward Resources */,
+				F45428EC2ABDB5F400A356BF /* Broward ResourcesTests */,
+				F45428F62ABDB5F400A356BF /* Broward ResourcesUITests */,
+				F45428D42ABDB5F300A356BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45428D42ABDB5F300A356BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45428D32ABDB5F300A356BF /* Broward Resources.app */,
+				F45428E92ABDB5F400A356BF /* Broward ResourcesTests.xctest */,
+				F45428F32ABDB5F400A356BF /* Broward ResourcesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45428D52ABDB5F300A356BF /* Broward Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F45428D62ABDB5F300A356BF /* AppDelegate.swift */,
+				F45428D82ABDB5F300A356BF /* SceneDelegate.swift */,
+				F45428DA2ABDB5F300A356BF /* ViewController.swift */,
+				F45428DC2ABDB5F300A356BF /* Main.storyboard */,
+				F45428DF2ABDB5F400A356BF /* Assets.xcassets */,
+				F45428E12ABDB5F400A356BF /* LaunchScreen.storyboard */,
+				F45428E42ABDB5F400A356BF /* Info.plist */,
+			);
+			path = "Broward Resources";
+			sourceTree = "<group>";
+		};
+		F45428EC2ABDB5F400A356BF /* Broward ResourcesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F45428ED2ABDB5F400A356BF /* Broward_ResourcesTests.swift */,
+			);
+			path = "Broward ResourcesTests";
+			sourceTree = "<group>";
+		};
+		F45428F62ABDB5F400A356BF /* Broward ResourcesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45428F72ABDB5F400A356BF /* Broward_ResourcesUITests.swift */,
+				F45428F92ABDB5F400A356BF /* Broward_ResourcesUITestsLaunchTests.swift */,
+			);
+			path = "Broward ResourcesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45428D22ABDB5F300A356BF /* Broward Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45428FD2ABDB5F400A356BF /* Build configuration list for PBXNativeTarget "Broward Resources" */;
+			buildPhases = (
+				F45428CF2ABDB5F300A356BF /* Sources */,
+				F45428D02ABDB5F300A356BF /* Frameworks */,
+				F45428D12ABDB5F300A356BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Broward Resources";
+			productName = "Broward Resources";
+			productReference = F45428D32ABDB5F300A356BF /* Broward Resources.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45428E82ABDB5F400A356BF /* Broward ResourcesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45429002ABDB5F400A356BF /* Build configuration list for PBXNativeTarget "Broward ResourcesTests" */;
+			buildPhases = (
+				F45428E52ABDB5F400A356BF /* Sources */,
+				F45428E62ABDB5F400A356BF /* Frameworks */,
+				F45428E72ABDB5F400A356BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45428EB2ABDB5F400A356BF /* PBXTargetDependency */,
+			);
+			name = "Broward ResourcesTests";
+			productName = "Broward ResourcesTests";
+			productReference = F45428E92ABDB5F400A356BF /* Broward ResourcesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45428F22ABDB5F400A356BF /* Broward ResourcesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45429032ABDB5F400A356BF /* Build configuration list for PBXNativeTarget "Broward ResourcesUITests" */;
+			buildPhases = (
+				F45428EF2ABDB5F400A356BF /* Sources */,
+				F45428F02ABDB5F400A356BF /* Frameworks */,
+				F45428F12ABDB5F400A356BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45428F52ABDB5F400A356BF /* PBXTargetDependency */,
+			);
+			name = "Broward ResourcesUITests";
+			productName = "Broward ResourcesUITests";
+			productReference = F45428F32ABDB5F400A356BF /* Broward ResourcesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45428CB2ABDB5F300A356BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F45428D22ABDB5F300A356BF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F45428E82ABDB5F400A356BF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F45428D22ABDB5F300A356BF;
+					};
+					F45428F22ABDB5F400A356BF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F45428D22ABDB5F300A356BF;
+					};
+				};
+			};
+			buildConfigurationList = F45428CE2ABDB5F300A356BF /* Build configuration list for PBXProject "Broward Resources" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45428CA2ABDB5F300A356BF;
+			productRefGroup = F45428D42ABDB5F300A356BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45428D22ABDB5F300A356BF /* Broward Resources */,
+				F45428E82ABDB5F400A356BF /* Broward ResourcesTests */,
+				F45428F22ABDB5F400A356BF /* Broward ResourcesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45428D12ABDB5F300A356BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45428E32ABDB5F400A356BF /* LaunchScreen.storyboard in Resources */,
+				F45428E02ABDB5F400A356BF /* Assets.xcassets in Resources */,
+				F45428DE2ABDB5F300A356BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45428E72ABDB5F400A356BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45428F12ABDB5F400A356BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45428CF2ABDB5F300A356BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45428DB2ABDB5F300A356BF /* ViewController.swift in Sources */,
+				F45428D72ABDB5F300A356BF /* AppDelegate.swift in Sources */,
+				F45428D92ABDB5F300A356BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45428E52ABDB5F400A356BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45428EE2ABDB5F400A356BF /* Broward_ResourcesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45428EF2ABDB5F400A356BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45428FA2ABDB5F400A356BF /* Broward_ResourcesUITestsLaunchTests.swift in Sources */,
+				F45428F82ABDB5F400A356BF /* Broward_ResourcesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45428EB2ABDB5F400A356BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45428D22ABDB5F300A356BF /* Broward Resources */;
+			targetProxy = F45428EA2ABDB5F400A356BF /* PBXContainerItemProxy */;
+		};
+		F45428F52ABDB5F400A356BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45428D22ABDB5F300A356BF /* Broward Resources */;
+			targetProxy = F45428F42ABDB5F400A356BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F45428DC2ABDB5F300A356BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45428DD2ABDB5F300A356BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45428E12ABDB5F400A356BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45428E22ABDB5F400A356BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45428FB2ABDB5F400A356BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F45428FC2ABDB5F400A356BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45428FE2ABDB5F400A356BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8QVKKQPMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Broward Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruh.ai.Broward-Resources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45428FF2ABDB5F400A356BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8QVKKQPMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Broward Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruh.ai.Broward-Resources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F45429012ABDB5F400A356BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8QVKKQPMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruh.ai.Broward-ResourcesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Broward Resources.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Broward Resources";
+			};
+			name = Debug;
+		};
+		F45429022ABDB5F400A356BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8QVKKQPMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruh.ai.Broward-ResourcesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Broward Resources.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Broward Resources";
+			};
+			name = Release;
+		};
+		F45429042ABDB5F400A356BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8QVKKQPMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruh.ai.Broward-ResourcesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Broward Resources";
+			};
+			name = Debug;
+		};
+		F45429052ABDB5F400A356BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8QVKKQPMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ruh.ai.Broward-ResourcesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Broward Resources";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45428CE2ABDB5F300A356BF /* Build configuration list for PBXProject "Broward Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45428FB2ABDB5F400A356BF /* Debug */,
+				F45428FC2ABDB5F400A356BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45428FD2ABDB5F400A356BF /* Build configuration list for PBXNativeTarget "Broward Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45428FE2ABDB5F400A356BF /* Debug */,
+				F45428FF2ABDB5F400A356BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45429002ABDB5F400A356BF /* Build configuration list for PBXNativeTarget "Broward ResourcesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45429012ABDB5F400A356BF /* Debug */,
+				F45429022ABDB5F400A356BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45429032ABDB5F400A356BF /* Build configuration list for PBXNativeTarget "Broward ResourcesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45429042ABDB5F400A356BF /* Debug */,
+				F45429052ABDB5F400A356BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45428CB2ABDB5F300A356BF /* Project object */;
+}
